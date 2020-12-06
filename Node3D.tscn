@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Node3D.gd" type="Script" id=1]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource( 1 )
+
+[node name="ToImport" type="Node3D" parent="."]
+script = null
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform( 0.808689, 0, 0.588237, 0, 1, 0, -0.588237, 0, 0.808689, 2.45049, 0.64307, 2.97613 )
+current = true
+script = null
